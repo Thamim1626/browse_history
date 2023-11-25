@@ -1,0 +1,58 @@
+.container {
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3367d6;
+  height: 60px;
+  padding: 14px;
+}
+
+.nav-logo {
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  height: 30px;
+  background-color: #2850a7;
+  padding: 8px;
+  margin-right: 4px;
+  color: white;
+  border: 1px solid #ececec;
+}
+.input {
+  height: 30px;
+  width: 250px;
+  background-color: #2850a7;
+  color: white;
+  border: 1px solid #ececec;
+  outline: none;
+}
+.input::placeholder {
+  padding: 4px;
+}
+
+.list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #f8fafc;
+  border-radius: 16px;
+  box-shadow: 0px 2px 4px 2px grey;
+  margin: 22px;
+  margin-top: 26px;
+}
+
+.empty-con {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}

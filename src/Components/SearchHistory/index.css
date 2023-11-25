@@ -1,0 +1,45 @@
+.item-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 12px;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.left-container {
+}
+
+.mid-container {
+  display: flex;
+  align-items: baseline;
+  margin-left: 16px;
+}
+
+.right-container {
+  margin-left: auto;
+}
+
+.time {
+  color: #64748b;
+  margin-left: 8px;
+}
+
+.logo {
+  height: 16px;
+  margin-left: 8px;
+}
+
+.title {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.url {
+  margin-left: 8px;
+  font-size: 10px;
+  color: #64748b;
+}
+
+.delete-icon {
+}
